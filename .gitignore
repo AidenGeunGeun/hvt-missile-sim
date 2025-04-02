@@ -1,0 +1,38 @@
+# MATLAB-specific files and directories to ignore
+
+# Autosave files
+*.asv
+
+# Compiled MEX files
+*.mex*
+
+# Simulink code generation folders
+slprj/
+sccprj/
+
+# Generated helpsearch folders
+helpsearch*/
+
+# Simulink cache files
+*.slxc
+
+# Generated MAT-files
+*.mat
+
+# Simulink simulation results
+simulation_model.slxc
+
+# Windows default autosave extension
+*.asv
+
+# OSX / *nix default autosave extension
+*.m~
+
+# Backup files
+*~
+
+# Matlab diary files
+diary
+
+# Results directory (uncomment if you don't want to include simulation results)
+# results/
